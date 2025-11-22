@@ -1,0 +1,115 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "24992775-9851-42b3-9bfa-d6f7b28c0cb9",
+   "metadata": {},
+   "source": [
+    "# data types in python\n",
+    "1.python have 3 data types\n",
+    "2.int(integer)\n",
+    "3.str(string)\n",
+    "4.float(decimals)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "7370dad1-3dfb-4caa-989d-700bfcf6bb8c",
+   "metadata": {
+    "jupyter": {
+     "source_hidden": true
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "vikram123\n",
+      "25\n",
+      "10000.25\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"vikram123\"\n",
+    "age=25\n",
+    "salary=10000.25\n",
+    "print(name)\n",
+    "print(age)\n",
+    "print(salary)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "47219f0e-cc51-4d29-b2b5-109de7a4e73d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "120\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "data=\"120\"\n",
+    "print(data)\n",
+    "print(type(data))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "2c06df2c-c563-4996-91a2-d773ca29934b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "220\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=100\n",
+    "b=120\n",
+    "print(a+b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c974634d-dbed-4a1c-8ae6-3cce6529c2ab",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
